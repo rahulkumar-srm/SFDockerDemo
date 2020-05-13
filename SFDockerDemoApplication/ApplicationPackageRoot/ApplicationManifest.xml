@@ -11,7 +11,7 @@
     <ServiceManifestRef ServiceManifestName="SFDockerDemoPkg" ServiceManifestVersion="1.0.0" />
     <Policies>
       <ContainerHostPolicies CodePackageRef="Code" Isolation="[SFDockerDemo_Isolation]">
-        <RepositoryCredentials AccountName="rahulcotainerregistry" Password="8V+b78vohcO6YEFA2MMQpW04El21rCPG" PasswordEncrypted="true" />
+        <RepositoryCredentials AccountName="rahulcotainerregistry" Password="MQv=ydhUvg1spnmKOddj6h7o3RxTRmdD" PasswordEncrypted="true" />
         <PortBinding ContainerPort="80" EndpointRef="SFDockerDemoTypeEndpoint" />
       </ContainerHostPolicies>
     </Policies>
